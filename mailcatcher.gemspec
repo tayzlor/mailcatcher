@@ -35,6 +35,7 @@ Gem::Specification.new do |s|
 
   s.add_dependency "activesupport", ">= 3.0.0", "< 4.1"
   s.add_dependency "eventmachine", "~> 1.0.0"
+  s.add_dependency "tilt", "~> 1.3", ">= 1.3.4"
   s.add_dependency "haml", ">= 3.1", "< 4.1"
   s.add_dependency "mail", "~> 2.3"
   s.add_dependency "sinatra", "~> 1.2"
